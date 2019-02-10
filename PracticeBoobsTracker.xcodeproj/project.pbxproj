@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9372E74220FD6FA0025B268 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9372E73220FD6FA0025B268 /* RatingControl.swift */; };
 		F9422893220D5C8F006DB94C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9422892220D5C8F006DB94C /* AppDelegate.swift */; };
 		F9422895220D5C8F006DB94C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9422894220D5C8F006DB94C /* ViewController.swift */; };
 		F9422898220D5C8F006DB94C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9422896220D5C8F006DB94C /* Main.storyboard */; };
@@ -34,17 +35,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F942288F220D5C8F006DB94C /* PracticeFoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeFoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9372E73220FD6FA0025B268 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		F942288F220D5C8F006DB94C /* PracticeBoobsTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeBoobsTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9422892220D5C8F006DB94C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9422894220D5C8F006DB94C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F9422897220D5C8F006DB94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9422899220D5C93006DB94C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F942289C220D5C93006DB94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F942289E220D5C93006DB94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F94228A3220D5C93006DB94C /* PracticeFoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeFoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F94228A3220D5C93006DB94C /* PracticeBoobsTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeBoobsTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94228A7220D5C93006DB94C /* PracticeFoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeFoodTrackerTests.swift; sourceTree = "<group>"; };
 		F94228A9220D5C93006DB94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F94228AE220D5C93006DB94C /* PracticeFoodTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeFoodTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F94228AE220D5C93006DB94C /* PracticeBoobsTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeBoobsTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94228B2220D5C93006DB94C /* PracticeFoodTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeFoodTrackerUITests.swift; sourceTree = "<group>"; };
 		F94228B4220D5C93006DB94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +89,9 @@
 		F9422890220D5C8F006DB94C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F942288F220D5C8F006DB94C /* PracticeFoodTracker.app */,
-				F94228A3220D5C93006DB94C /* PracticeFoodTrackerTests.xctest */,
-				F94228AE220D5C93006DB94C /* PracticeFoodTrackerUITests.xctest */,
+				F942288F220D5C8F006DB94C /* PracticeBoobsTracker.app */,
+				F94228A3220D5C93006DB94C /* PracticeBoobsTrackerTests.xctest */,
+				F94228AE220D5C93006DB94C /* PracticeBoobsTrackerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +101,7 @@
 			children = (
 				F9422892220D5C8F006DB94C /* AppDelegate.swift */,
 				F9422894220D5C8F006DB94C /* ViewController.swift */,
+				F9372E73220FD6FA0025B268 /* RatingControl.swift */,
 				F9422896220D5C8F006DB94C /* Main.storyboard */,
 				F9422899220D5C93006DB94C /* Assets.xcassets */,
 				F942289B220D5C93006DB94C /* LaunchScreen.storyboard */,
@@ -128,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F942288E220D5C8F006DB94C /* PracticeFoodTracker */ = {
+		F942288E220D5C8F006DB94C /* PracticeBoobsTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F94228B7220D5C93006DB94C /* Build configuration list for PBXNativeTarget "PracticeFoodTracker" */;
+			buildConfigurationList = F94228B7220D5C93006DB94C /* Build configuration list for PBXNativeTarget "PracticeBoobsTracker" */;
 			buildPhases = (
 				F942288B220D5C8F006DB94C /* Sources */,
 				F942288C220D5C8F006DB94C /* Frameworks */,
@@ -140,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = PracticeFoodTracker;
+			name = PracticeBoobsTracker;
 			productName = PracticeFoodTracker;
-			productReference = F942288F220D5C8F006DB94C /* PracticeFoodTracker.app */;
+			productReference = F942288F220D5C8F006DB94C /* PracticeBoobsTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F94228A2220D5C93006DB94C /* PracticeFoodTrackerTests */ = {
+		F94228A2220D5C93006DB94C /* PracticeBoobsTrackerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F94228BA220D5C93006DB94C /* Build configuration list for PBXNativeTarget "PracticeFoodTrackerTests" */;
+			buildConfigurationList = F94228BA220D5C93006DB94C /* Build configuration list for PBXNativeTarget "PracticeBoobsTrackerTests" */;
 			buildPhases = (
 				F942289F220D5C93006DB94C /* Sources */,
 				F94228A0220D5C93006DB94C /* Frameworks */,
@@ -158,14 +161,14 @@
 			dependencies = (
 				F94228A5220D5C93006DB94C /* PBXTargetDependency */,
 			);
-			name = PracticeFoodTrackerTests;
+			name = PracticeBoobsTrackerTests;
 			productName = PracticeFoodTrackerTests;
-			productReference = F94228A3220D5C93006DB94C /* PracticeFoodTrackerTests.xctest */;
+			productReference = F94228A3220D5C93006DB94C /* PracticeBoobsTrackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F94228AD220D5C93006DB94C /* PracticeFoodTrackerUITests */ = {
+		F94228AD220D5C93006DB94C /* PracticeBoobsTrackerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F94228BD220D5C93006DB94C /* Build configuration list for PBXNativeTarget "PracticeFoodTrackerUITests" */;
+			buildConfigurationList = F94228BD220D5C93006DB94C /* Build configuration list for PBXNativeTarget "PracticeBoobsTrackerUITests" */;
 			buildPhases = (
 				F94228AA220D5C93006DB94C /* Sources */,
 				F94228AB220D5C93006DB94C /* Frameworks */,
@@ -176,9 +179,9 @@
 			dependencies = (
 				F94228B0220D5C93006DB94C /* PBXTargetDependency */,
 			);
-			name = PracticeFoodTrackerUITests;
+			name = PracticeBoobsTrackerUITests;
 			productName = PracticeFoodTrackerUITests;
-			productReference = F94228AE220D5C93006DB94C /* PracticeFoodTrackerUITests.xctest */;
+			productReference = F94228AE220D5C93006DB94C /* PracticeBoobsTrackerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F942288A220D5C8F006DB94C /* Build configuration list for PBXProject "PracticeFoodTracker" */;
+			buildConfigurationList = F942288A220D5C8F006DB94C /* Build configuration list for PBXProject "PracticeBoobsTracker" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F942288E220D5C8F006DB94C /* PracticeFoodTracker */,
-				F94228A2220D5C93006DB94C /* PracticeFoodTrackerTests */,
-				F94228AD220D5C93006DB94C /* PracticeFoodTrackerUITests */,
+				F942288E220D5C8F006DB94C /* PracticeBoobsTracker */,
+				F94228A2220D5C93006DB94C /* PracticeBoobsTrackerTests */,
+				F94228AD220D5C93006DB94C /* PracticeBoobsTrackerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9422895220D5C8F006DB94C /* ViewController.swift in Sources */,
+				F9372E74220FD6FA0025B268 /* RatingControl.swift in Sources */,
 				F9422893220D5C8F006DB94C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		F94228A5220D5C93006DB94C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F942288E220D5C8F006DB94C /* PracticeFoodTracker */;
+			target = F942288E220D5C8F006DB94C /* PracticeBoobsTracker */;
 			targetProxy = F94228A4220D5C93006DB94C /* PBXContainerItemProxy */;
 		};
 		F94228B0220D5C93006DB94C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F942288E220D5C8F006DB94C /* PracticeFoodTracker */;
+			target = F942288E220D5C8F006DB94C /* PracticeBoobsTracker */;
 			targetProxy = F94228AF220D5C93006DB94C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -481,7 +485,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticeFoodTracker.app/PracticeFoodTracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticeBoobsTracker.app/PracticeBoobsTracker";
 			};
 			name = Debug;
 		};
@@ -502,7 +506,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticeFoodTracker.app/PracticeFoodTracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticeBoobsTracker.app/PracticeBoobsTracker";
 			};
 			name = Release;
 		};
@@ -549,7 +553,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F942288A220D5C8F006DB94C /* Build configuration list for PBXProject "PracticeFoodTracker" */ = {
+		F942288A220D5C8F006DB94C /* Build configuration list for PBXProject "PracticeBoobsTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F94228B5220D5C93006DB94C /* Debug */,
@@ -558,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F94228B7220D5C93006DB94C /* Build configuration list for PBXNativeTarget "PracticeFoodTracker" */ = {
+		F94228B7220D5C93006DB94C /* Build configuration list for PBXNativeTarget "PracticeBoobsTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F94228B8220D5C93006DB94C /* Debug */,
@@ -567,7 +571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F94228BA220D5C93006DB94C /* Build configuration list for PBXNativeTarget "PracticeFoodTrackerTests" */ = {
+		F94228BA220D5C93006DB94C /* Build configuration list for PBXNativeTarget "PracticeBoobsTrackerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F94228BB220D5C93006DB94C /* Debug */,
@@ -576,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F94228BD220D5C93006DB94C /* Build configuration list for PBXNativeTarget "PracticeFoodTrackerUITests" */ = {
+		F94228BD220D5C93006DB94C /* Build configuration list for PBXNativeTarget "PracticeBoobsTrackerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F94228BE220D5C93006DB94C /* Debug */,
