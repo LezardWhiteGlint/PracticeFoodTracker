@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F92A1A9322126E4A00FDAAA0 /* BoobTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92A1A9222126E4A00FDAAA0 /* BoobTableViewCell.swift */; };
+		F92A1A9722128DCE00FDAAA0 /* BoobTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92A1A9622128DCE00FDAAA0 /* BoobTableViewController.swift */; };
 		F9372E74220FD6FA0025B268 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9372E73220FD6FA0025B268 /* RatingControl.swift */; };
 		F9422893220D5C8F006DB94C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9422892220D5C8F006DB94C /* AppDelegate.swift */; };
-		F9422895220D5C8F006DB94C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9422894220D5C8F006DB94C /* ViewController.swift */; };
+		F9422895220D5C8F006DB94C /* BoobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9422894220D5C8F006DB94C /* BoobViewController.swift */; };
 		F9422898220D5C8F006DB94C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9422896220D5C8F006DB94C /* Main.storyboard */; };
 		F942289A220D5C93006DB94C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9422899220D5C93006DB94C /* Assets.xcassets */; };
 		F942289D220D5C93006DB94C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F942289B220D5C93006DB94C /* LaunchScreen.storyboard */; };
 		F94228A8220D5C93006DB94C /* PracticeFoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94228A7220D5C93006DB94C /* PracticeFoodTrackerTests.swift */; };
 		F94228B3220D5C93006DB94C /* PracticeFoodTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94228B2220D5C93006DB94C /* PracticeFoodTrackerUITests.swift */; };
+		F9E603C822113A06001BD083 /* Boob.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E603C722113A06001BD083 /* Boob.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F92A1A9222126E4A00FDAAA0 /* BoobTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoobTableViewCell.swift; sourceTree = "<group>"; };
+		F92A1A9622128DCE00FDAAA0 /* BoobTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoobTableViewController.swift; sourceTree = "<group>"; };
 		F9372E73220FD6FA0025B268 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		F942288F220D5C8F006DB94C /* PracticeBoobsTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeBoobsTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9422892220D5C8F006DB94C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F9422894220D5C8F006DB94C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9422894220D5C8F006DB94C /* BoobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoobViewController.swift; sourceTree = "<group>"; };
 		F9422897220D5C8F006DB94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9422899220D5C93006DB94C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F942289C220D5C93006DB94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		F94228AE220D5C93006DB94C /* PracticeBoobsTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeBoobsTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94228B2220D5C93006DB94C /* PracticeFoodTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeFoodTrackerUITests.swift; sourceTree = "<group>"; };
 		F94228B4220D5C93006DB94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E603C722113A06001BD083 /* Boob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boob.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				F9422892220D5C8F006DB94C /* AppDelegate.swift */,
-				F9422894220D5C8F006DB94C /* ViewController.swift */,
+				F9422894220D5C8F006DB94C /* BoobViewController.swift */,
 				F9372E73220FD6FA0025B268 /* RatingControl.swift */,
+				F9E603C722113A06001BD083 /* Boob.swift */,
+				F92A1A9222126E4A00FDAAA0 /* BoobTableViewCell.swift */,
+				F92A1A9622128DCE00FDAAA0 /* BoobTableViewController.swift */,
 				F9422896220D5C8F006DB94C /* Main.storyboard */,
 				F9422899220D5C93006DB94C /* Assets.xcassets */,
 				F942289B220D5C93006DB94C /* LaunchScreen.storyboard */,
@@ -190,6 +199,9 @@
 		F9422887220D5C8F006DB94C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					123,
+				);
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Lezardvaleth;
@@ -259,9 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9422895220D5C8F006DB94C /* ViewController.swift in Sources */,
+				F92A1A9722128DCE00FDAAA0 /* BoobTableViewController.swift in Sources */,
+				F9422895220D5C8F006DB94C /* BoobViewController.swift in Sources */,
 				F9372E74220FD6FA0025B268 /* RatingControl.swift in Sources */,
 				F9422893220D5C8F006DB94C /* AppDelegate.swift in Sources */,
+				F9E603C822113A06001BD083 /* Boob.swift in Sources */,
+				F92A1A9322126E4A00FDAAA0 /* BoobTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +453,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AV64Q6NXM9;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = PracticeFoodTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -445,6 +461,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Lezardvaleth.PracticeFoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_REFLECTION_METADATA_LEVEL = all;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,6 +473,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AV64Q6NXM9;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = PracticeFoodTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -463,6 +481,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Lezardvaleth.PracticeFoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_REFLECTION_METADATA_LEVEL = all;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -524,9 +543,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Lezardvaleth.PracticeFoodTrackerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PracticeFoodTracker;
+				TEST_TARGET_NAME = PracticeBoobsTracker;
 			};
 			name = Debug;
 		};
@@ -544,9 +564,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Lezardvaleth.PracticeFoodTrackerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PracticeFoodTracker;
+				TEST_TARGET_NAME = PracticeBoobsTracker;
 			};
 			name = Release;
 		};
